@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pâtisserie Délicieuse</title>
+    <link rel="stylesheet" href="nosdelices.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Nos délices</h1>
+        <nav>
+            <ul>
+                <li><a href="site.html">Accueil</a></li>
+                <li><a href="nosdelices.html">Nos délices</a></li>
+                <li><a href="contact.html">Inscription</a></li>
+                <li><a href="commande.html">Commande</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            
+            <img src="./images/im/cat/design-cat.jpg" alt="Gâteau au chocolat">
+            <button type="submit" onclick="cakedesign()">Cake design</button>
+            
+        </div>
+
+        <div class="product">
+            <img src="./images/im/cat/macaron-cat.jpg" alt="Éclair à la vanille">
+            <button type="submit" onclick="macaron()">macaron</button>
+            <p></p>
+        </div>
+
+        <div class="product">
+            <img src="./images/im/cat/tarte-cat.jpg" alt="Tarte aux fruits">
+            <button type="submit" onclick="tarte()">Tartes</button>
+            <p></p>
+        </div>
+    </div>
+    <script>
+        function macaron() {
+            window.location.href = "macaron.html";
+        }
+        function cakedesign() {
+            window.location.href = "cake-design.html";
+        }
+        function tarte() {
+            window.location.href = "tartes.html";
+        }
+    </script>
+</body>
+</html>
